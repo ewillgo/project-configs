@@ -1,5 +1,5 @@
 okhttp3:
-  readTimeout: 5
+  readTimeout: 10
   connectTimeout: 5
   maxIdleConnections: 1
   keepAliveDuration: 1
