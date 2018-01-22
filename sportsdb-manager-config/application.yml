@@ -4,3 +4,10 @@ okhttp3:
   maxIdleConnections: 1
   keepAliveDuration: 1
 
+mybatis:
+  configuration:
+    map-underscore-to-camelCase: true
+    cache-enabled: false
+    use-generated-keys: true
+    default-statement-timeout: 10
+  mapper-locations: "classpath*:mapperss/**/*.xml"
