@@ -1,0 +1,30 @@
+spring:
+  template:
+    cache: false
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+    suffix: .html
+  redis:
+    database: 0
+    host: 112.74.100.88
+    password: '{cipher}AQCBDjYt3ortJEKbv74dRJOazfb9pv3GgdPYNRBEiwo5H2fKtKKD3lO6iZCj8otHRUaD5R6gUxCWVyYf4WLYWbVfbqAH+r5XU9PJhfWLYscZA7vzf5MCLkaWXSaljpsBi5AToK3eH1lPt39bdIqvs0BWVlBBbeDzo6FGKgr8L3miV9PZieDyN2qRbmOiAdshgt1ICzlbo0CcE1cbqS58JUaVbstVjUsqXYItg83yEII26LuZaT9G4w3ydm9WCglCIbcbeTchf+6LHBkLkNRoPJuqFITN2Ud7qY4aOA35nRdTigppj81eXNc4AaYI4das4Lm+P3ic3dOQehxnA35w74LEKPPDUjOpQbNOQgZ8MLspsHCFdDYiCgzkO9nYiMoNtgF2OuLFPOSuqTcGVy6XVaTwB7ENID3JYoAACy0jcINi1Ct+iNDKsfl+7J8iJS8CkzOVFXpjZfz7e2akjRc3B54B'
+    sentinel:
+      master: mymaster
+      nodes: '{cipher}AQAUMAiXS04AVGVAxAps4AvH3+rCMoTji9ljEKXlrj7QkHZgYLLxQ7FMbTcpRgBfH5FYk1/tGKcvKFiaKaAsrxP8goODYPxfK3CRFNxlCoNR+hH9qapfsSIX8PMMR0Dv+vBsSmFxG+HeQIcuooMaWotU6E7BR4EQALoUuIjURX4aS2+tBshcrTVdxmOl22+IBxbu6zsxrH7O1jLc3Lp17gfnXF3Hig0F0ebnLsbPb0TTrJa6+nczealvuLo568tT+gpKMJZ+21l2t8Og4vzrwi5MOyIrZO/tFZUlgoQMwDHoR4iHAZtI/fslIhImy93nEwatsRntf6FZmaoj7TYWPo7Vkbj6WVm9mHaOEtynls7X3yJ/wL0rH/paxNwx3ICiAtAKChhWiHYrLIxpauRo0tacSPMA/iiwhEGXPb5+KDHMQ9kfK62PN+XF5ul5HXpT/xI='
+    pool:
+      max-active: 1
+      min-idle: 1
+      max-idle: 1
+      max-wait: 5000
+    timeout: 5000
+
+ds:
+  test:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jdbcUrl: '{cipher}AQB94CKnDeyDRLgU8QON1uLEJLvGlnlvw73I8sREqablOSa53gb0C6KF+aeKtaVqujs0VzUHjC7tgDS3rrR2+YrHDMWyBfAq1oEL23lq8QHyn2XGJ7o+HxpET4SyW+iXbSa45eQg7U5F2Rm0S4Du0v4WEKVvkT4dmOo8qm9QLsNTTmvYbcrHD64T3qMOq+3e2pi56mhYf+fLLrSAEIau3lz51m5ji0n2Tc5NaI7rVRUSeGWaZowu/yblNLRXqHLezs1S3YgIUEnEAEFFZNXI4zCNyec+IACbPrcmY743RgadTFDQmjwQ0JLs+E5WSVxJ9Iep6wRzylmRXmEe6kGpW1/RnCGhRZpckQh7brjznOiX3xrJ1FYgKb4Yjs0i1y05ZUftGtoIKkn6bfMHTXR6sLTuBew9iJ9fOCkr06+ZC/iEWnHhtGTlu4LOCETK6yER+30aA7zp7iQokpVJEY+CjSn2'
+    username: '{cipher}AQAy2zmcW0dNhhNdEFfXyTJtiygMhPMTSNp/XR26B8nayY0qTycKohlAR32QTSjkWcXPIfS+klGIk6QHsgiTUYkVKLQORQUdUqnt6KjKc0ZbG5hhLtNhHA28fIpElFPmsS2EQwDaDxfg7HtKklU6P9bgXzxg2Y+uXGypwSZoh4vr/ifa6b/VJDn2BLtygMRMYxhXx1rjUCMoPWaIxzpctajhlLKZ7rFQsAtJtSfN3W82wRJ2Urp1QFTEe0p0Lj7Sx8HaQBM7GAvB8uLv6N+KO0UqDHDPkFo8uPx1TUafRI/DZhZCdJEdsmcpTHY2/g2s0Ha0qqXLhavSmqms7LOm1dI7yozoCcdKSGeu7qZiEs8J9SSOU2qG2IhiOQ4261YLbck='
+    password: '{cipher}AQAj7JsUFVj0iaf9QqbQYjnbJQsuUhdkcmKUDRmm+F5VvuO38arpStch1Kp9g3x3GE9rrjX+0d0G5pSf2PG6TmSNT4qrmWkQ20MKIkc0WEk8BdcpSm129HdthiG7yUQfUYS4P/aRdEueywpvLUuIVAt5ERIJlLdxAjJr9+SeDE7E7Pi+Jz/5UqaEqktqaVsGF8sF0WJza6BtOO40+WD9ZJN8NjKLxUehgQJUVcdriZ0v3RUO2ux45lfRKXawkjvaaXjeWmGTII3SYXo/OsHBZJVdy7fdh4OF/SihEOL7th0IbdObs2oy+HRt+RvwamFVxcnJBj369B9PQwF5nPVR2SNTGEYxUixShGZ+W73X6L0td0jfhjRxjMZZCkLPkXsaAcQPJgwGa4/459UjAhcXAZGr'
+    minimumIdle: 1
+    maximumPoolSize: 1
