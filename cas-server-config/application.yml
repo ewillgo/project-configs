@@ -3,3 +3,9 @@ okhttp3:
   connectTimeout: 5
   maxIdleConnections: 1
   keepAliveDuration: 1
+
+spring:
+  session:
+    store-type: redis
+    hazelcast:
+      map-name: cas:sessions
