@@ -14,7 +14,7 @@ spring:
       master: mymaster
       nodes: '{cipher}AQAUMAiXS04AVGVAxAps4AvH3+rCMoTji9ljEKXlrj7QkHZgYLLxQ7FMbTcpRgBfH5FYk1/tGKcvKFiaKaAsrxP8goODYPxfK3CRFNxlCoNR+hH9qapfsSIX8PMMR0Dv+vBsSmFxG+HeQIcuooMaWotU6E7BR4EQALoUuIjURX4aS2+tBshcrTVdxmOl22+IBxbu6zsxrH7O1jLc3Lp17gfnXF3Hig0F0ebnLsbPb0TTrJa6+nczealvuLo568tT+gpKMJZ+21l2t8Og4vzrwi5MOyIrZO/tFZUlgoQMwDHoR4iHAZtI/fslIhImy93nEwatsRntf6FZmaoj7TYWPo7Vkbj6WVm9mHaOEtynls7X3yJ/wL0rH/paxNwx3ICiAtAKChhWiHYrLIxpauRo0tacSPMA/iiwhEGXPb5+KDHMQ9kfK62PN+XF5ul5HXpT/xI='
     pool:
-      max-active: 1
+      max-active: 10
       min-idle: 1
       max-idle: 1
       max-wait: 5000
